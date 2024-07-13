@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="Mark Jason Espelita">
+    <meta name="title" content="Mark Jason Espelita Web Development">
+    <meta name="keywords" content="web design, web development, social media marketing, laravel, laravel livewire">
+    <meta name="description" content="I am 24 years of age, I reside in Brgy. Salvacion, San Isidro, Northern Samar, Philippines. As a seasoned fullstack web developer, I possess proficiency in programming languages such as PHP and JavaScript, alongside frameworks like Laravel, complemented by expertise in Laravel Livewire. Furthermore, I boast extensive experience in content management systems such as WordPress (utilizing Elementor), GoHighLevel web and funnel builder, ClickFunnels, and Hubspot.">
+    <link rel="icon" href="./assets/logo-192x192.png">
+    <title>Mark Jason Espelita</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <style>
+        /* Adjust sidebar width */
+        .sidebar {
+            width: 200px;
+            /* position: fixed; */
+            min-height: 100vh;
+            color: #fff;
+            padding-top: 15px;
+            /* overflow-y: scroll; */
+  position: fixed;
+  /* z-index: 1; */
+  top: 0;
+  left: 0;
+        }
+
+        .black{
+            background: linear-gradient(to right, #000428, #004e92)
+        }
+
+        /* Set sidebar background color */
+        .sidebar a {
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
+            display: block;
+        }
+
+        .sidebar a:hover {
+            background-color: #495057;
+        }
+
+        /* Content */
+        /* .content {
+            margin-left: 0;
+            padding: 20px;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 p-0 black">
+                <!-- Sidebar -->
+                <div class="sidebar d-none d-lg-block">
+                    <div class="container">
+                        <img src="./assets/logo-192x192.png" alt="" width="30%" style="margin: auto; border-radius: 50%;">
+                        <h5 class="mt-3">My Projects</h5>
+                        <a href="/">Home</a>
+                        <a href="./hosted-projects.html">Hosted Projects</a>
+                        <a href="./local-projects.html">Local Projects</a>
+                        <a href="./location.html">My Location</a>
+                        <a href="./blog.html">My Blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-10 col-md-12 p-0">
+                <!-- Page content -->
+                <div class="content">
+                    <!-- Navigation menu -->
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">Mark Jason Espelita</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="/">Home</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="location.html">My Location</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="blog.html">My Blog</a>
+                                    </li>
+                                </ul>
+                                <!-- Sidebar items in dropdown for mobile view -->
+                                <ul class="navbar-nav ml-auto d-lg-none">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Sidebar Items
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="./hosted-projects.html">Hosted Projects</a>
+                                            <a class="dropdown-item" href="./local-projects.html">Local Projects</a>
+                                            <!-- <a class="dropdown-item" href="#">Hobbies</a>
+                                            <a class="dropdown-item" href="#">Personal Frameworks and Starter Kits</a> -->
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+    
+                    <!-- Page content area -->
+                    <div class="container py-4">
+                        <section>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 col-md-12">
+                                        <h1>Hosted Projects</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section>
+                            <div class="container">
+                                <div class="form-group">
+                                    <input type="text" id="search" class="form-control" placeholder="Search Project...">
+                                </div>
+                            </div>
+                        </section>
+
+                        
+                        <section class="py-3">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>Saint Francis College Online Document Request With Tracker</h4>
+                                                <small>(Laravel - In Production)</small> <br>
+                                                <a href="https://sfconlinedocumentrequest.com">https://sfconlinedocumentrequest.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>Saint Francis College Allen Online Document Request With SMS</h4>
+                                                <small>(Laravel - In Production)</small> <br>
+                                                <a href="https://sfcallendocumentrequest.com">https://sfcallendocumentrequest.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>Tinambacan Resort Reservation System</h4>
+                                                <small>(Laravel - In Production)</small> <br>
+                                                <a href="https://tinambacanonlineresortreservation.online">https://tinambacanonlineresortreservation.online</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>Somoray Park And Resort</h4>
+                                                <small>(HTML CSS - In Production - Outdated)</small> <br>
+                                                <small>Release Date: Oct. 24, 2020</small> <br>
+                                                <a href="https://somorayparkandresort.netlify.app">https://somorayparkandresort.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>Portfolio</h4>
+                                                <small>(HTML CSS - In Production - Outdated)</small> <br>
+                                                <small>Release Date: Oct. 30, 2021</small> <br>
+                                                <a href="https://markjason.netlify.app">https://markjason.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>Resort Sample Template</h4>
+                                                <small>(HTML CSS - In Production - Hobby)</small> <br>
+                                                <small>Release Date: Mar. 1, 2023</small> <br>
+                                                <a href="https://resortsmple.netlify.app">https://resortsmple.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>Dinasour Game</h4>
+                                                <small>(HTML CSS - In Production - Hobby)</small> <br>
+                                                <small>Release Date: Dec. 20, 2021</small> <br>
+                                                <a href="https://markdinosaur.netlify.app">https://markdinosaur.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>Shanne</h4>
+                                                <small>(HTML CSS - In Production)</small> <br>
+                                                <small>Release Date: Dec. 13, 2021</small> <br>
+                                                <a href="https://shanne.netlify.app">https://shanne.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>MJ Dixie AI Chatbot</h4>
+                                                <small>(HTML CSS - In Production)</small> <br>
+                                                <small>Release Date: Aug. 29, 2021</small> <br>
+                                                <a href="https://mjdixie.netlify.app">https://mjdixie.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>COVID Symptoms Analyzer AI</h4>
+                                                <small>(HTML CSS - In Production)</small> <br>
+                                                <small>Release Date: Aug. 14, 2021</small> <br>
+                                                <a href="https://covidsymps.netlify.app">https://covidsymps.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>WebiApp</h4>
+                                                <small>(HTML CSS - In Production)</small> <br>
+                                                <small>Release Date: Apr. 8, 2021</small> <br>
+                                                <a href="https://webiapp.netlify.app">https://webiapp.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>Todo List PWA Version</h4>
+                                                <small>(HTML CSS - In Production)</small> <br>
+                                                <small>Release Date: Mar. 30, 2021</small> <br>
+                                                <a href="https://apptodoinstall.netlify.app">https://apptodoinstall.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>Todo List Web</h4>
+                                                <small>(HTML CSS - In Production)</small> <br>
+                                                <small>Release Date: Mar. 1, 2021</small> <br>
+                                                <a href="https://onlinetodos.netlify.app">https://onlinetodos.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>EnVenta</h4>
+                                                <small>(HTML CSS - In Production - Hobby)</small> <br>
+                                                <small>Release Date: Oct. 13, 2020</small> <br>
+                                                <a href="https://enventa.netlify.app">https://enventa.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>TMEbdane Online Learning</h4>
+                                                <small>(HTML CSS - In Production - Hobby)</small> <br>
+                                                <small>Release Date: Oct. 13, 2020</small> <br>
+                                                <a href="https://tmebdane.netlify.app">https://tmebdane.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>MJ The Handsome - Blogging - Advertising</h4>
+                                                <small>(HTML CSS - In Production - Hobby)</small> <br>
+                                                <small>Release Date: Oct. 2, 2020</small> <br>
+                                                <a href="https://mjthehandsome.netlify.app">https://mjthehandsome.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>CheMJ</h4>
+                                                <small>(HTML CSS - In Production)</small> <br>
+                                                <small>Release Date: Oct. 2, 2020</small> <br>
+                                                <a href="https://chemj.netlify.app">https://chemj.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>MJ Static Sites</h4>
+                                                <small>(HTML CSS - In Production)</small> <br>
+                                                <small>Release Date: Oct. 13, 2020</small> <br>
+                                                <a href="https://mjstaticsites.netlify.app">https://mjstaticsites.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-6 p-2 proj">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4>MJ Mini Store</h4>
+                                                <small>(HTML CSS - In Production)</small> <br>
+                                                <small>Release Date: Oct. 3, 2020</small> <br>
+                                                <a href="https://mjministore.netlify.app">https://mjministore.netlify.app</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery (optional) -->
+     <script src="./jquery.js"></script>
+    <script src="./slim.min.js"></script>
+    <script src="./jquery.slim.popper.min.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#search").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $(".proj").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+</body>
+</html>

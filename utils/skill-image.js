@@ -72,11 +72,20 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import laravel from '/public/svg/skills/laravel.svg';
+import ghl from '/public/svg/skills/ghl.png';
+import clickfunnels from '/public/svg/skills/clickfunnels.png';
 
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'laravel':
+      return laravel;
+    case 'clickfunnels':
+      return clickfunnels;
+    case 'gohighlevel':
+      return ghl;
     case 'gcp':
       return gcp;
     case 'html':
