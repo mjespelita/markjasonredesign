@@ -2,7 +2,7 @@ export const personalData = {
   name: "Mark Jason",
   profile: '/profile.jpg',
   designation: "Web Developer",
-  description: "I am 24 years old, I reside in Brgy. Salvacion, San Isidro, Northern Samar, Philippines. As a seasoned fullstack web developer, I possess proficiency in programming languages such as PHP and JavaScript, alongside frameworks like Laravel, complemented by expertise in Laravel Livewire. Furthermore, I boast extensive experience in content management systems such as WordPress (utilizing Elementor), GoHighLevel web and funnel builder, ClickFunnels, and Hubspot.",
+  description: "I am Mark Jason Penote Espelita, 24 years old. I reside in Brgy. Salvacion, San Isidro, Northern Samar, Philippines. As a seasoned fullstack web developer, I possess proficiency in programming languages such as PHP and JavaScript, alongside frameworks like Laravel, complemented by expertise in Laravel Livewire. Furthermore, I boast extensive experience in content management systems such as WordPress (utilizing Elementor), GoHighLevel web and funnel builder, ClickFunnels, and Hubspot.",
   email: 'markjasonespelita@gmail.com',
   phone: '+639978972884',
   address: 'Brgy. Salvacion, San Isidro Northern Samar',
