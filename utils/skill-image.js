@@ -75,11 +75,17 @@ import wordpress from '/public/svg/skills/wordpress.svg';
 import laravel from '/public/svg/skills/laravel.svg';
 import ghl from '/public/svg/skills/ghl.png';
 import clickfunnels from '/public/svg/skills/clickfunnels.png';
+import inertia from '/public/svg/skills/inertia.png';
+import livewire from '/public/svg/skills/livewire.png';
 
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'inertia':
+      return inertia;
+    case 'livewire':
+      return livewire;
     case 'laravel':
       return laravel;
     case 'clickfunnels':

@@ -6,6 +6,8 @@ export const skillsData = [
   'Git',
   'Bootstrap',
   'Laravel',
+  'Inertia',
+  'Livewire',
   'Microsoft Office',
   'Vue',
   'PHP',
