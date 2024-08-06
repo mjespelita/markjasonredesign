@@ -8,12 +8,14 @@ export const skillsData = [
   'Laravel',
   'Inertia',
   'Livewire',
-  'Microsoft Office',
+  'MS Office',
   'Vue',
   'PHP',
   'Wordpress',
   'GoHighLevel',
-  'ClickFunnels'
+  'ClickFunnels',
+  'Filament',
+  'Github'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

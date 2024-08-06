@@ -77,6 +77,8 @@ import ghl from '/public/svg/skills/ghl.png';
 import clickfunnels from '/public/svg/skills/clickfunnels.png';
 import inertia from '/public/svg/skills/inertia.png';
 import livewire from '/public/svg/skills/livewire.png';
+import filament from '/public/svg/skills/filament.png';
+import github from '/public/svg/skills/github.png';
 
 
 export const skillsImage = (skill) => {
@@ -84,6 +86,10 @@ export const skillsImage = (skill) => {
   switch (skillID) {
     case 'inertia':
       return inertia;
+    case 'github':
+      return github;
+    case 'filament':
+      return filament;
     case 'livewire':
       return livewire;
     case 'laravel':
@@ -228,7 +234,7 @@ export const skillsImage = (skill) => {
       return ionic;
     case 'markdown':
       return markdown;
-    case 'microsoft office':
+    case 'ms office':
       return microsoftoffice;
     case 'picsart':
       return picsart;
